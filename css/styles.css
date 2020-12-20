@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+	color: black;
+}
+
+h1 {
+	margin: 15px;
+	color:blue;
+	text-align: center;
+}
+
+.row {
+	position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+	margin-right: 5px;
+	padding: 5px;
+    border: 1px solid black;
+    width: 33.33%;
+}
+
+.container-1 {
+	position: relative;
+	float: left;
+	background-color: black;
+	margin-left: 15px;
+	width: 32%;
+}
+
+#p1 {
+	background-color: #b3b1bd;
+	width: 100%;
+	padding: 40px;
+}
+
+#item-1 {
+	position: absolute;
+	background-color: #eb78c9;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	right: -5px;
+}
+
+.container-2 {
+	float: left;
+	position: relative;
+	width: 32%;
+	margin-left: 15px;
+}
+
+#p2 {
+	background-color: #b3b1bd;
+	width: 100%;
+	padding: 40px;
+}
+
+#item-2 {
+	position: absolute;
+	background-color: #ebe178;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	right: -5px;
+}
+
+.container-3 {
+	float: left;
+	position: relative;
+	width: 32%;
+	margin-left: 15px;
+}
+
+#p3 {
+	background-color: #b3b1bd;
+	width: 100%;
+	padding: 40px;
+}
+
+#item-3 {
+	position: absolute;
+	background-color: #78e3eb;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	right: -5px;
+	top: 0px;
+}
+
+section {
+	clear: left;
+}
+
+/*Computer*/
+@media (min-width: 992px) {
+.container-1 {
+	width: 31%;
+}
+
+.container-2 {
+	width: 31%;
+}
+
+.container-3 {
+	width: 31%;
+}
+
+}
+
+/*Tabs*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.container-1 {
+	width: 47%;
+}
+.container-2 {
+	width: 47%;
+}
+.container-3 {
+	top: 15px;
+	width:95.5%;
+}
+
+}
+
+/*Mobile phones*/
+@media (max-width: 768px) {
+.container-1 {
+	clear: both;
+	width: 96%;
+}
+.container-2 {
+	top: 15px;
+	clear: both;
+	width: 96%;
+}
+.container-3 {
+	margin-top: 30px;
+	clear: both;
+	width: 96%;
+}
+
+}
